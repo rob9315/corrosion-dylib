@@ -1,0 +1,10 @@
+[package]
+name = "bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cdylib = { workspace = true }
+dylib = { workspace = true }
+rlib = { workspace = true }
+staticlib = { workspace = true }

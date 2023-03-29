@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>staticlib</name>
+  <version>0.1.0</version>
+  <description>The staticlib package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://wiki.ros.org/staticlib</url> -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>

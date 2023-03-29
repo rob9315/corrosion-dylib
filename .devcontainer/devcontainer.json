@@ -1,0 +1,30 @@
+{
+    "dockerFile": "Dockerfile",
+    "remoteUser": "user",
+    "runArgs": [
+        "--privileged",
+        "--network=host",
+        "--cap-add=SYS_PTRACE",
+        "--security-opt=seccomp:unconfined",
+        "--security-opt=apparmor:unconfined",
+        "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+    ],
+    "containerEnv": {
+        "DISPLAY": "${localEnv:DISPLAY}"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                // cmake
+                "twxs.cmake",
+                // ros
+                "ms-iot.vscode-ros",
+                // rust
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    }
+}

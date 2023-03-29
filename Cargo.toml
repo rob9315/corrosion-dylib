@@ -1,0 +1,8 @@
+[workspace]
+members = ["src/bin", "src/cdylib", "src/dylib", "src/staticlib"]
+
+[workspace.dependencies]
+cdylib = { path = "src/cdylib" }
+dylib = { path = "src/dylib" }
+rlib = { path = "src/rlib" }
+staticlib = { path = "src/staticlib" }

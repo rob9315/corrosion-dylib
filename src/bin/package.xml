@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bin</name>
+  <version>0.1.0</version>
+  <description>The bin package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://wiki.ros.org/bin</url> -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cdylib</depend>
+  <depend>dylib</depend>
+  <depend>rlib</depend>
+  <depend>staticlib</depend>
+
+  <export>
+  </export>
+</package>
